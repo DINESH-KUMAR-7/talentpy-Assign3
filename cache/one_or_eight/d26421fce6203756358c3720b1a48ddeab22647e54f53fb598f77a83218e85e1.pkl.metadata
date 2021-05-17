@@ -1,0 +1,20 @@
+{
+    "creation_time": 1621151756.1112165,
+    "creation_time_human": "2021-05-16 13:25:56",
+    "time_delta": 0.0,
+    "time_delta_human": "0 seconds",
+    "file_dump_time": 0.0,
+    "file_dump_time_human": "0 seconds",
+    "file_dump_size": 5,
+    "file_dump_size_human": "5 Bytes",
+    "load_kwargs": {},
+    "dump_kwargs": {},
+    "function_name": "one_or_eight",
+    "function_file": "c:/Users/HP/Documents/GitHub/Talentpy-A3/1r89.py:12",
+    "args_to_ignore": [],
+    "source": "@cache\ndef one_or_eight(num):\n    sum = 0\n    if(len(num)==1):\n        sum = sum+pow(int(num),2)\n    return sum\n",
+    "backend_metadata": {},
+    "parameters": {
+        "num": "5"
+    }
+}
